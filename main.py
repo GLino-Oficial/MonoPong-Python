@@ -18,6 +18,18 @@ from random import randint
 #--------------------------------
 fonte = pygame.font.SysFont('arial',40,bold=True,italic=True)
 
+#Janela/Tela do jogo
 largura = 640
 altura = 480
 relogio = pygame.time.Clock()
+
+tela = pygame.display.set_mode((640,480))
+pygame.display.set_caption("pong")
+
+#Posição da raquete
+xraquete = 150
+yraquete = 468
+
+#Posição da Bolinha
+x = 0
+y = 0
