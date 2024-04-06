@@ -33,3 +33,13 @@ yraquete = 468
 #Posição da Bolinha
 x = 0
 y = 0
+
+#Direção da Bolinha
+Direita = True
+Subir = True
+
+#Referente a bolinha
+velocidade = 10
+
+#Pontuação Inicial
+pontos = 0
